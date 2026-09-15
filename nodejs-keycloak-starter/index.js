@@ -1,3 +1,25 @@
+/**
+ * @file index.js
+ * @description
+ * Node.js starter application implementing the OpenID Connect
+ * Authorization Code Flow with Keycloak.
+ *
+ * Flow:
+ * 1. Redirects users to Keycloak for authentication.
+ * 2. Receives the authorization code callback.
+ * 3. Exchanges the code for access and identity tokens.
+ * 4. Can be extended to store the authenticated user in the session.
+ *
+ * Configuration:
+ * - Keycloak realm and server URL
+ * - Client ID and client secret
+ * - OAuth2 redirect URI
+ *
+ * Routes:
+ * - GET /login    Redirects the user to Keycloak for authentication.
+ * - GET /callback Exchanges the authorization code for tokens.
+ */
+
 const express = require('express');
 const axios = require('axios');
 const app = express();
