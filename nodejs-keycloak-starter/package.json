@@ -1,0 +1,23 @@
+{
+  "name": "authorization-code-flow",
+  "version": "1.0.0",
+  "description": "Starter for Nodejs Keycloak OpenID Connect Authorization Code Flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arungopi/keycloak-quickstart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arungopi/keycloak-quickstart/issues"
+  },
+  "homepage": "https://github.com/arungopi/keycloak-quickstart#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.1"
+  }
+}
