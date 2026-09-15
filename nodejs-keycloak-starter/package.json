@@ -1,5 +1,5 @@
 {
-  "name": "authorization-code-flow",
+  "name": "nodejs-keycloak-starter",
   "version": "1.0.0",
   "description": "Starter for Nodejs Keycloak OpenID Connect Authorization Code Flow",
   "main": "index.js",
